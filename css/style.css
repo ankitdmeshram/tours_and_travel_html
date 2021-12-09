@@ -1,0 +1,52 @@
+  * {
+    scroll-behavior: smooth;
+  }
+  .gs-header .gs-top-nav {
+    background-color: #313041;
+    color: white;
+    font-size: 16px;
+    padding: 7px 1px 1px 1px;
+  }
+  .gs-header .gs-top-nav p {
+    margin-bottom: 0.3em;
+    text-align: right;
+  }
+
+  .gs-header .gs-top-nav p a {
+    text-decoration: none;
+    color: white !important;
+  }
+  
+  @media (max-width: 992px) {
+    .gs-hide {
+      display: none;
+      float: right;
+    }
+  }
+  
+  .gs-nav li {
+    padding: 10px;
+  }
+  .gs-nav li a {
+    color: black !important;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+
+  .gs-hero 
+  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+  }
+
+
+  .gs-hero .gs-hero-box h1 
+  {
+    color: white;
+    text-transform: uppercase;
+  }
