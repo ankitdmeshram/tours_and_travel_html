@@ -141,14 +141,15 @@
 }
 .three .dest-box 
 {
-  margin: 20px
+  margin: 20px 0px;
+  border-radius: 10px;
 }
 
 @media (max-width: 992px)
 {
   .three .dest-box 
 {
-  margin: 10px
+  margin: 10px 0px;
 }
 .three h1 
 {
@@ -181,4 +182,30 @@
 .three .dest-box .dest-box-content  .gs-dest-right 
 {
   float: right;
+}
+
+
+
+.four 
+{
+  padding: 50px 10px;
+}
+.four .box 
+{
+  padding: 30px 10px;
+  margin: 10px 0px 10px 0px
+}
+.four .box p 
+{
+  padding: 15px 30px 10px 30px;
+}
+
+.four .gs-img 
+{
+  width: 75px;
+  border-radius: 150px;
+}
+.four h1
+{
+  font-weight: 700;
 }
