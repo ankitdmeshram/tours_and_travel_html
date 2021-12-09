@@ -1,109 +1,184 @@
-  * {
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
+}
+.gs-header .gs-top-nav {
+  background-color: #313041;
+  color: white;
+  font-size: 16px;
+  padding: 7px 1px 1px 1px;
+}
+.gs-header .gs-top-nav p {
+  margin-bottom: 0.3em;
+  text-align: right;
+}
+.gs-header .gs-top-nav p a {
+  text-decoration: none;
+  color: white !important;
+}
+@media (max-width: 992px) {
+  .gs-hide {
+    display: none;
+    float: right;
   }
-  .gs-header .gs-top-nav {
-    background-color: #313041;
-    color: white;
-    font-size: 16px;
-    padding: 7px 1px 1px 1px;
-  }
-  .gs-header .gs-top-nav p {
-    margin-bottom: 0.3em;
-    text-align: right;
-  }
+}
+.gs-nav li {
+  padding: 10px;
+}
+.gs-nav li a {
+  color: black !important;
+  font-size: 18px;
+  text-decoration: none;
+}
+.gs-hero {
+  background: rgba(0, 0, 0, 0.5);
+}
+.gs-hero .gs-hero-box {
+  padding: 225px 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gs-hero .gs-hero-box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+.gs-hero .gs-hero-box p {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-  .gs-header .gs-top-nav p a {
-    text-decoration: none;
-    color: white !important;
-  }
-  
-  @media (max-width: 992px) {
-    .gs-hide {
-      display: none;
-      float: right;
-    }
-  }
-  
-  .gs-nav li {
-    padding: 10px;
-  }
-  .gs-nav li a {
-    color: black !important;
-    font-size: 18px;
-    text-decoration: none;
-  }
-
-
-  .gs-hero 
-  {
-    background: rgba(0, 0, 0, 0.5);
-
-  }
-
-  .gs-hero .gs-hero-box
-  {
-    padding: 225px 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .gs-hero .gs-hero-box h1 
-  {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 50px;
-  }
-
-  .gs-hero .gs-hero-box p 
-  {
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  .gs-hero .gs-hero-box .gs-btn 
-  {
-    color: white;
-    background: #FD6E2F;
-    padding: 7px 30px;
-    font-size: 20px;
-    font-weight: 700;
-  }
-
-
-
-@media (max-width: 992px)
+.gs-btn {
+  color: white;
+  background: #fd6e2f;
+  padding: 4px 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gs-btn:hover 
 {
-  .gs-hero .gs-hero-box
-  {
+  color: white;
+  text-transform: none;
+  background: #ff4d00;
+}
+@media (max-width: 992px) {
+  .gs-hero .gs-hero-box {
     padding: 150px 10px;
   }
 }
-
-
-@media (max-width: 800px)
-{
-  .gs-hero .gs-hero-box
-  {
+@media (max-width: 800px) {
+  .gs-hero .gs-hero-box {
     padding: 100px 10px;
   }
-  .gs-hero .gs-hero-box h1 
-  {
+  .gs-hero .gs-hero-box h1 {
     font-size: 30px;
   }
-
-  .gs-hero .gs-hero-box p 
-  {
+  .gs-hero .gs-hero-box p {
     font-size: 15px;
   }
-  .gs-hero .gs-hero-box .gs-btn 
-  {
+  .gs-hero .gs-hero-box .gs-btn {
     padding: 5px 15px;
     font-size: 15px;
     font-weight: 700;
   }
-  
+}
+
+
+
+.two 
+{
+  padding: 50px 10px;
+}
+.two h4 
+{
+  color: #fd6e2f;
+  font-weight: 700;
+}
+.two h2 
+{
+  font-weight: 800;
+}
+.two p 
+{
+  font-size: 18px;
+}
+
+
+
+
+
+.two .gs-form 
+{
+  border-radius: 15px ;
+}
+.two .gs-form form
+{
+  padding :25px;
+}
+.two h3 
+{
+  background: #fd6e2f;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.three 
+{
+  background-color: rgba(0, 0, 0, 0.014);
+  padding: 50px 10px;
+}
+.three h1 
+{
+  font-weight: 700;
+}
+.three .dest-box 
+{
+  margin: 20px
+}
+
+@media (max-width: 992px)
+{
+  .three .dest-box 
+{
+  margin: 10px
+}
+.three h1 
+{
+  font-size: 30px;
+}
+.three h5 
+{
+  font-size: 15px;
+}
 
 }
 
+.three .dest-box .gs-dest-box
+{
+  width: 100%;
+}
+.three .dest-box .dest-box-content
+{
+  padding: 15px;
+}
+.three .dest-box .dest-box-content h5
+{
+  font-size: 20px;
+  font-weight: 700;
+}
+.three .dest-box .dest-box-content  .gs-dest-left 
+{
+  font-weight: 700;
+}
+.three .dest-box .dest-box-content  .gs-dest-right 
+{
+  float: right;
+}
